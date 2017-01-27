@@ -1,10 +1,14 @@
 CACHE MANIFEST
-/theme.css
-/logo.gif
-/main.js
+
+CACHE:
+#v1 ...
+/style.css
+/image/calais.jpg
+/image/icon.ico
+/index.html
 
 NETWORK:
-login.asp
+
 
 FALLBACK:
-/html/ /offline.html
+/html/ /index.html
