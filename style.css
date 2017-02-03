@@ -1,13 +1,18 @@
-#para1{
+/*#para1{
 	background-color : blue;
-}
+}*/
 
-#para2{
+/*#para2{
 	background-color : white;
-}
+}*/
 
-#para3{
+/*#para3{
 	background-color : red;
+}*/
+
+body{
+	background:url(image/bg.jpg);
+	background-size : cover;
 }
 
 img{
@@ -29,14 +34,22 @@ h1{
 	display : block;
 }
 
-@media (-webkit-max-device-pixel-ratio: 2){
-	
+@media(-webkit-max-device-pixel-ratio: 2){
+
+}
+
+@media(max-width:480px){
+	td,th{
+		display : block;
+	}
+	table{
+		width : 100%;
+	}
 }
 
 table{
 	border : 1px solid black;
 	text-align : center;
-	display : inline-table;
 }
 
 td,th{
@@ -46,3 +59,4 @@ td,th{
 th{
 	background-color : grey;
 }
+
