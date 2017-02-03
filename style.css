@@ -32,3 +32,17 @@ h1{
 @media (-webkit-max-device-pixel-ratio: 2){
 	
 }
+
+table{
+	border : 1px solid black;
+	text-align : center;
+	display : inline-table;
+}
+
+td,th{
+	border : 1px solid black;
+}
+
+th{
+	background-color : grey;
+}
